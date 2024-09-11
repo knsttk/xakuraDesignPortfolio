@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио XAKURA design</title>
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/mustica-pro-sans-serif" rel="stylesheet">
+    
+</head>
+<body>
+    <button id="scrollToTopBtn" class="scroll-to-top">
+        <svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.74 0.73L0.74 8.73C-0.25 9.72 -0.25 11.27 0.74 12.26C1.73 13.25 3.28 13.25 4.27 12.26L8.01 8.53V18.5C8.01 19.9 9.11 21 10.51 21C11.91 21 13.01 19.9 13.01 18.5V8.53L16.74 12.26C17.73 13.25 19.28 13.25 20.27 12.26C21.26 11.27 21.26 9.72 20.27 8.73L12.27 0.73C11.78 0.24 11.2 0 10.51 0C9.81 0 9.23 0.24 8.74 0.73Z"/>
+          </svg>          
+          
+          
+    </button>
+    
+    <header class="header-wrapper">
+        <div class="header-content">
+            <button class="header-button" onclick="scrollToSection('portfolio')">ПОРТФОЛИО</button>
+            <button class="header-button" onclick="scrollToSection('reviews')">ОТЗЫВЫ</button>
+            <img src="assets/icons/xd logo.svg" alt="">
+            <button class="header-button" onclick="scrollToSection('prices')">ЦЕНЫ</button>
+            <button class="header-button" onclick="scrollToSection('contacts')">КОНТАКТЫ</button>
+        </div>
+    </header>
+    <section class="block-container">
+        <div class="main-block-content">
+            <div class="main-left-part">
+                <img src="assets/images/top-stripe.svg" class="stripes top-stripe" alt="">
+                <img src="assets/images/left-stripe.svg" class="stripes left-stripe" alt="">
+                <img src="assets/images/right-stripe.svg" class="stripes right-stripe" alt="">
+                <img src="assets/images/star.svg" class="main-star main-star1" alt="">
+                <img src="assets/images/star.svg" class="main-star main-star2" alt="">
+                <img src="assets/images/star.svg" class="main-star main-star3" alt="">
+                <div class="main-left-part-text">
+                    <p style="color: black; -webkit-text-stroke: 0.7px rgb(255, 255, 255); margin-bottom: 10px;">Привет. Я дизайнер.</p>
+                    <p>Я занимаюсь созданием логотипов,<br>полиграфии и фирменного стиля.<br>
+                        На этой странице вы можете<br>ознакомиться с моими кейсами.</p>
+                        <button class="main-left-part-button">ОЗНАКОМИТЬСЯ С ПОРТФОЛИО</button>
+                    </div>
+                </div>
+                <p class="main-name">КИРИЛЛ<br>ЗАЛОЗНЫЙ</p>
+                <div class="block-background">
+                    <img src="assets/images/banner_photo.png" alt="">
+                </div>
+        </div>
+    </section>
+    <section class="specs-block">
+        <div class="about-block-wrapper">
+            <div class="specs-left-part">
+                <div class="block-text-container">
+                    <p class="about-block-title">ОБО МНЕ</p>
+                    <img src="assets/images/star.svg" class="star" alt="">
+                </div>
+            </div>
+            <div class="specs-right-part">
+                <img src="assets/images/top-stripe.svg" class="divider" alt="">
+                <p class="specs-text">Мне 25. С раннего детства я увлекался обработкой фотографий в программе Adobe Photoshop. После второго курса в ВУЗе <br> на специальности информатика я понял, что программирование - это не моё. <br><br>
+
+                    С 2019 года я начал больше увлекаться графическим дизайном и стал «самоучкой». Я верстал макеты для выдуманных кейсов, нарабатывая себе портфолио. <br><br>
+                    
+                    В 2022 я запустил поиск вакансий дизайнера, с нулевым опытом работы в компаниях. С пятой попытки я смог устроиться в один городской развлекательный комплекс. <br><br>
+                    
+                    Наработав некоторый опыт - я решил создать этот сайт-визитку, чтобы написать текст, <i>который вы только что прочитали.</i> </p>
+            </div>
+        </div>
+    </section>
+    <section class="specs-block" id="portfolio">
+        <div class="about-block-wrapper">
+            <div class="specs-left-part">
+                <div class="block-text-container">
+                    <p class="about-block-title" >ПОРТФОЛИО</p>
+                    <img src="assets/images/star.svg" class="star" alt="">
+                </div>
+            </div>
+            <div class="specs-right-part">
+                <img src="assets/images/top-stripe.svg" class="divider" alt="">
+                <div class="case-types">
+                    <p class="case-names">ЛОГОТИПЫ</p>
+                    <p class="case-names">ПОЛИГРАФИЯ</p>
+                    <p class="case-names">ФИРМЕННЫЙ СТИЛЬ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specs-block" id="reviews">
+        <div class="about-block-wrapper">
+            <div class="specs-left-part">
+                <div class="block-text-container">
+                    <p class="about-block-title" >ОТЗЫВЫ</p>
+                    <img src="assets/images/star.svg" class="star" alt="">
+                </div>
+            </div>
+            <div class="specs-right-part">
+                <img src="assets/images/top-stripe.svg" class="divider" alt="">
+                <div class="case-types">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specs-block" id="prices">
+        <div class="about-block-wrapper">
+            <div class="specs-left-part">
+                <div class="block-text-container">
+                    <p class="about-block-title" >ЦЕНЫ</p>
+                    <img src="assets/images/star.svg" class="star" alt="">
+                </div>
+            </div>
+            <div class="specs-right-part">
+                <img src="assets/images/top-stripe.svg" class="divider" alt="">
+                <div class="prices-wrapper">
+                    <div class="prices-names">
+                        <p class="price-title">Логотип (до 3 вариантов)</p>
+                        <p class="price-adds">Монохромный</p>
+                        <p class="price-adds">Цветной</p>
+                        <p class="price-adds">Дополнительные варианты</p>
+                        <p class="price-title">Полиграфия</p>
+                        <p class="price-adds">Афиша</p>
+                        <p class="price-adds">Визитные карточки</p>
+                        <p class="price-adds">Демонстрация на носителях</p>
+                        <p class="price-title">Разработка фирменного стиля</p>
+                        <p class="price-adds">Разработка логотипа</p>
+                        <p class="price-adds">Подбор цветов, типографика</p>
+                        <p class="price-adds">POS-материалы</p>
+                    </div>
+                    <span class="mini-divider"></span>
+                    <div class="prices-nums">
+                        <p class="price-number">-</p>
+                        <p class="price-number">  1 500₽</p>
+                        <p class="price-number">  2 000₽</p>
+                        <p class="price-number">+700₽/шт</p>
+                        <p class="price-number">-</p>
+                        <p class="price-number">от 2 000₽</p>
+                        <p class="price-number">от 1 200₽</p>
+                        <p class="price-number">   +200₽/шт</p>
+                        <p class="price-number">-</p>
+                        <p class="price-number">от 1 500₽</p>
+                        <p class="price-number">от 2 000₽</p>
+                        <p class="price-number">от 1 500₽/шт</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specs-block" id="contacts">
+        <div class="about-block-wrapper">
+            <div class="specs-left-part">
+                <div class="block-text-container">
+                    <p class="about-block-title" >КОНТАКТЫ</p>
+                    <img src="assets/images/star.svg" class="star" alt="">
+                </div>
+            </div>
+            <div class="specs-right-part">
+                <img src="assets/images/top-stripe.svg" class="divider" alt="">
+                <div class="contact-types">
+                    <p class="contact-names">TELEGRAM</p>
+                    <p class="contact-names">GMAIL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="footer-content">
+            <div class="telegram-block">
+                <img src="assets/images/tg-icon.svg" alt="">
+                <p class="footer-names">@xakuradesign</p>
+            </div>
+            <img src="assets/images/footer-icon.svg" alt="">
+            <div class="gmail-block">
+                <img src="assets/images/gmail-icon.svg" alt="">
+                <p class="footer-names">xakuradesign@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/scripts/script.js"></script>
+</html>
