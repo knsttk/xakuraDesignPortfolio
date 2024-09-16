@@ -26,3 +26,10 @@ function scrollToSection(sectionId) {
         });
     }
 }
+const burgerIcon = document.getElementById('burger-icon');
+    const menu = document.getElementById('menu');
+
+    // Обработчик клика по иконке бургер-меню
+    burgerIcon.onclick = function() {
+        menu.classList.toggle('active'); // Переключаем класс для показа/скрытия меню
+    };
