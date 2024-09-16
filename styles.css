@@ -508,7 +508,7 @@ p{
 .burger{
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     html{
         margin: 0;
         overflow-x: hidden;
@@ -530,7 +530,7 @@ p{
     
     .burger{
         display: block;
-        width: 668px;
+        width: 500px;
         display: flex;
         justify-content: space-between;
         margin-left: auto;
