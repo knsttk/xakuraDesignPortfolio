@@ -205,12 +205,12 @@ p{
 }
 .main-left-part-button{
     margin-top: 60px;
-    width: fit-content;
+    width: 320px;
     white-space: nowrap;
     height: 50px;
     border-radius: 9px;
     font-family: HeadingNowTrial35;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 0px;
     cursor: pointer;
     transition: 0.3s;
@@ -223,7 +223,6 @@ p{
     letter-spacing: 1px;
     background-color: black;
     border: 1px solid white;
-    width: calc(100%+20px);
 }
 .main-name-container{
     width: 926px;
@@ -612,12 +611,13 @@ p{
         margin-right: auto;
     }
     .main-left-part-text{
-        margin-top: 70%;
+        margin-top: 45%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 33px;
+        font-size: 50px;
+        line-height: 45px;
         text-align: center;
-        height: 300px;
+        height: 350px;
         background-color: rgb(0, 0, 0, 0.5);
         box-shadow: -5px -5px 30px 30px rgba(0, 0, 0, 0.5);
     }
@@ -684,11 +684,11 @@ p{
         height: fit-content;
         margin-left: auto;
         margin-right: auto;
-        opacity: 30%;
+        opacity: 20%;
     }
     .about-block-title{
         opacity: 50%;
-        font-size: 150px;
+        font-size: 200px;
         margin-left: 0;
         margin-top: 30px;
         width: fit-content;
@@ -728,18 +728,20 @@ p{
         margin-left: 0px;
     }
     .prices-wrapper{
-        width: 440px;
+        width: 550px;
         height: 332px;
-        margin-left: 50px;
+        margin-left: 0px;
         font-family: Mustica;
         font-size: 19px;
         line-height: 21px;
         display: flex;
         justify-content: space-between;
         color: white;
+        margin-left: auto;
+        margin-right: auto;
     }
     .prices-wrapper p{
-        width: 310px;
+        width: inherit;
     }
     .prices-names{
         width: 310px;
@@ -750,6 +752,7 @@ p{
     }
     .price-title{
         font-weight: 400;
+        text-align: left;
     }
     .mini-divider{
         width: 1px;
@@ -762,22 +765,20 @@ p{
     }
     .prices-nums{
         font-weight: 300;
-        width: 76px;
+        width: fit-content;
         height: 332px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .price-number{
-        width: fit-content;
+        width: 120px;
     }
     .case-types{
         width: 100%;
         height: 300px;
-        font-family: HeadingNowTrial35;
         color: white;
         font-size: 105px;
-        transition: 0.3s;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -800,6 +801,7 @@ p{
         color: white;
         font-size: 108px;
         transition: 0.3s;
+        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -809,9 +811,11 @@ p{
         opacity: 50%;
         line-height: 92px;
         transition: 0.3s;
-        text-align: left;
-        margin-left: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         white-space: nowrap;
+        font-size: 150px;
     }
     .contact-names:hover{
         letter-spacing: 3px;
@@ -826,25 +830,29 @@ p{
         align-items: center;
     }
     .footer-content{
-        width: 900px;
+        width: 800px;
         height: 50px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         justify-content: space-between;
     }
+    .footer-content p{
+        margin-left: 10px;
+    }
+    .footer-logo{
+        transform: scale(0.8);
+    }
     .telegram-block{
         width: 201px;
         height: 50px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
     .gmail-block{
         width: 294px;
         height: 50px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
     .footer-names{
