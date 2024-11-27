@@ -816,8 +816,10 @@ p{
         letter-spacing: 0px;
     }
     .contact-types{
-        width: fit-content;
+        width: auto;
         font-family: HeadingNowTrial35;
+        margin-left: auto;
+        margin-right: auto;
         color: white;
         font-size: 108px;
         transition: 0.3s;
@@ -825,6 +827,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-bottom: 100px;
     }
     .contact-names{
         width: 600px;
@@ -844,40 +847,49 @@ p{
     }
     .footer-wrapper{
         max-width: 100%;
-        height: 180px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .footer-content{
         width: 800px;
-        height: 50px;
+        height: 500px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .footer-content p{
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .footer-logo{
-        transform: scale(0.8);
+        height: 100px;
+        margin-bottom: 50px;
     }
     .telegram-block{
-        width: 201px;
-        height: 50px;
+        margin-top: 50px;
+        width: auto;
+        height: 100px;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
     }
     .gmail-block{
-        width: 294px;
-        height: 50px;
+        width: auto;
+        height: 100px;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+    }
+    .telegram-block img, .gmail-block img{
+        width: 100px;
+        height: 100px;
     }
     .footer-names{
         font-family: Mustica;
-        font-size: 19px;
+        font-size: 50px;
         font-weight: 400;
         color: white;
         vertical-align: middle;
