@@ -635,9 +635,10 @@ p{
         text-decoration: none;
         text-align: center;
         color: black;
+        pointer-events: none;
     }
-    .main-left-part-button:hover{
-        letter-spacing: 1px;
+    .main-left-part-button p{
+        margin: 0;;
     }
     .main-name{
         position: absolute;
