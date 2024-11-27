@@ -634,6 +634,7 @@ p{
         font-size: 90px;
         text-decoration: none;
         text-align: center;
+        align-items: center;
         color: rgb(255, 128, 128);
         pointer-events: none;
     }
