@@ -635,12 +635,12 @@ p{
         text-decoration: none;
         text-align: center;
         align-items: center;
-        color: rgb(76, 0, 255);
+        color: rgb(0, 0, 0);
         pointer-events: none;
     }
     .button-text{
         width: auto;
-        margin-left: -40px;
+        margin-left: -35px;
         text-align: center;
     }
     .main-name{
