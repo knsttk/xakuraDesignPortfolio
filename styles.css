@@ -738,7 +738,7 @@ p{
         width: 880px;
         height: auto;
         font-family: Mustica;
-        font-size: 30px;
+        font-size: 33px;
         line-height: 50px;
         display: flex;
         justify-content: space-between;
@@ -750,7 +750,7 @@ p{
         width: inherit;
     }
     .prices-names{
-        width: 310px;
+        width: 500px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -763,18 +763,18 @@ p{
     }
     .mini-divider{
         width: 1px;
-        height: 332px;
+        height: 100%;
         background-color: rgb(122, 122, 122);
     }
     .price-adds{
         font-weight: 300;
         text-align: right;
+        font-size: 30px;
     }
     .prices-nums{
-        margin-top: 20px;
         font-weight: 300;
         width: fit-content;
-        height: 332px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
